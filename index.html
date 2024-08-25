@@ -6,11 +6,6 @@
   <title>MINABEYA</title>
   <!-- style -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- slider CDN -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <!-- twitter card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@eigosugiyama">
@@ -21,59 +16,75 @@
   <!-- jQ -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <!-- script -->
-  <!-- <script src="js/slick.min.js"></script> -->
   <script src="js/nav.bar.js"></script>
   <script src="js/script.js"></script>
-
-  <!-- <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slider').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        dots: true,
-        arrows: true,
-      });
-    });
-  </script> -->
-
 </head>
-<body>
-  <header class="header">
-    <div class="header-inner">
-      <div class="site-title"><a href="index.html">MINABEYA</a></div>
-      <nav class="header-nav">
-        <ul class="nav-list">
-          <!-- ここに動的にリストを表示 -->
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <div class="fv">
-      <img src="img/slick/三人と夏の午後_油絵.png" alt="苗">
-      <!-- ゆくゆくカルーセル -->
-      <!-- <ul class="slider">
-        <li><img src="img/slick/Image_20230724_青空と稲と夏の午後.jpg" alt="苗"></li>
-        <li><img src="img/slick/Image_20230724_青空と稲と夏の午後.png" alt="苗"></li>
-        <li><img src="img/slick/三人と夏の午後_トイカメラ.png" alt="苗"></li>
-        <li><img src="img/slick/三人と夏の午後_油絵.png" alt="苗"></li>
-        <li><img src="img/slick/Image_20230724_青空と稲と夏の午後_明るい.png" alt="苗"></li>
-      </ul> -->
-    </div>
-
-  </main>
-  <footer class="footer">
-    <div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d1658.1392404411995!2d135.32838060182036!3d33.77930611562468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e3!4m3!3m2!1d33.7786275!2d135.3291063!4m3!3m2!1d33.778705099999996!2d135.3290078!5e0!3m2!1sja!2sjp!4v1723642396940!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div>
-      <small>&copy; MINABEYA All rights reserved.</small>
-    </div>
-  </footer>
-
-</body>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header-inner">
+        <div class="site-title"><a href="index.html">MINABEYA</a></div>
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <!-- ここに動的にリストを表示 nav.bar.js -->
+          </ul>
+        </nav>
+        <button class="burger-btn">
+          <span class="bar bar_top"></span>
+          <span class="bar bar_mid"></span>
+          <span class="bar bar_bottom"></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="fv">
+        <img src="img/slick/三人と夏の午後_油絵.png" alt="苗">
+        <!-- ゆくゆくカルーセル -->
+        <!-- <ul class="slider">
+          <li><img src="img/slick/Image_20230724_青空と稲と夏の午後.jpg" alt="苗"></li>
+          <li><img src="img/slick/Image_20230724_青空と稲と夏の午後.png" alt="苗"></li>
+          <li><img src="img/slick/三人と夏の午後_トイカメラ.png" alt="苗"></li>
+          <li><img src="img/slick/三人と夏の午後_油絵.png" alt="苗"></li>
+          <li><img src="img/slick/Image_20230724_青空と稲と夏の午後_明るい.png" alt="苗"></li>
+        </ul> -->
+      </div>
+      <!-- //works -->
+      <div id="works">
+        <section class="section-wrapper bg-works">
+          <h2 class="section-title text-right text-white">Works</h2>
+          <ul class="works-list">
+            <li class="works-item">
+              <a href="index.html#!">
+                <div class="works-list-img"><img src="img/card-img01@2x.jpg" alt=""></div>
+                <p class="works-list-text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+              </a>
+            </li>
+            <li class="works-item">
+              <a href="index.html#!">
+                <div class="works-list-img"><img src="img/card-img02@2x.jpg" alt=""></div>
+                <p class="works-list-text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+              </a>
+            </li>
+            <li class="works-item">
+              <a href="index.html#!">
+                <div class="works-list-img"><img src="img/card-img03@2x.jpg" alt=""></div>
+                <p class="works-list-text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+              </a>
+            </li>
+          </ul>
+          <a href="index.html#!" class="link-btn">view more</a>
+          <div class="section-bottom text-white">Our Works</div>
+        </section>
+     </div>
+    <!-- works -->
+    </main>
+    <footer class="footer">
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d1658.1392404411995!2d135.32838060182036!3d33.77930611562468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e3!4m3!3m2!1d33.7786275!2d135.3291063!4m3!3m2!1d33.778705099999996!2d135.3290078!5e0!3m2!1sja!2sjp!4v1723642396940!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div>
+        <small>&copy; MINABEYA All rights reserved.</small>
+      </div>
+    </footer>
+  </body>
 </html>
