@@ -105,7 +105,7 @@ html{
  }
  .header.fixed{
    position: fixed;
-   background-color: #282f35;
+   background-color: rgba(40, 47, 53, 0.8); /* 0.8は透明度の値で、0が完全に透明、1が不透明 */
    padding: 30px;
    width: 100%;
    transition: .3s;
@@ -367,7 +367,7 @@ html{
      display: block;
      height: 3px;
      width: 30px;
-     background-color: #fff;
+     background-color: #ef5826;
    }
    .bar_top{
      margin-bottom: 8px;
