@@ -375,7 +375,17 @@ html{
    .bar_mid{
      margin-bottom: 8px;
    }
-   
+   .site-title {
+    position: absolute;
+    top: 200px; /* 上からの距離を指定 */
+    left: 20%; /* 横幅の中央を基準に配置 */
+    transform: translateX(-50%) scale(0.1); /* 横方向の中央に移動し、縮小 */
+    font-size: 7.8rem;
+    z-index: 2; /* 他の要素の上に表示されるように調整 */
+    opacity: 0; /* 初期状態：透明 */
+    transition: transform 2s ease-out, opacity 2s ease-out; /* アニメーションのトランジションを設定 */
+}
+
    /* ハンバーガーメニューが開いたとき */
    .burger-btn.cross .bar_top{
      transform: rotate(45deg) translate(8px,8px);
