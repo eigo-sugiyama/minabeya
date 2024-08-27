@@ -14,10 +14,18 @@ $win.on('load scroll',function(){
 
       if ( value > fvHeight) {
         $header.addClass(fixedClass);
-        
+        $('.site-title').css({
+          'top': '5px', // 新しい位置
+          'transform': 'scale(1)', // 拡大
+          'opacity': '1' // 表示
+        }); 
       } else {
         $header.removeClass(fixedClass);
-        
+        $('.site-title').css({
+          'top': '200px',
+          'transform': 'scale(1)',
+          'opacity': '1'
+        });
       }
     
 
