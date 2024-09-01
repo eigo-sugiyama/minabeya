@@ -240,15 +240,18 @@ html{
  
  
  /* ---------------------------- */
- /* service
+ /* about
  /* ---------------------------- */
- .service-list{
+ .about-list{
    display: flex;
  }
- .service-item{
+  .about-list li{
+   list-style: none;
+ }
+ .about-item{
    width: 33.3%;
  }
- .service-item a{
+ .about-item a{
    text-decoration: none;
    display: block;
    width: 100%;
@@ -260,18 +263,18 @@ html{
    font-style: italic;
    transition: .3s;
  }
- .service-item a:hover{
+ .about-item a:hover{
    background-color: rgba(40,47,53,.7);
    transition: .3s;
  }
- .service-item.service_1{
-   background-image: url(../img/service-img01@2x.jpg);
+ .about-item.about_1{
+   background-image: url(../img/PXL_20230827_プログラマー杉山.png);
  }
- .service-item.service_2{
-   background-image: url(../img/service-img02@2x.jpg);
+ .about-item.about_2{
+   background-image: url(../img/about-img02@2x.jpg);
  }
- .service-item.service_3{
-   background-image: url(../img/sevice-img03@2x.jpg);
+ .about-item.about_3{
+   background-image: url(../img/service-img03@2x.jpg);
  }
  
  /* ---------------------------- */
@@ -463,24 +466,27 @@ html{
        padding: 0 4vw;
        margin-bottom: 80px;
      }
-     .works-item{
+     .works-list li{
+      list-style: none;
+     }
+      .works-item{
        width: 320px;
        max-width: 100%;
        margin: 0 auto 30px;
      }
  
      /* ---------------------------- */
-     /* service_sp
+     /* about_sp
      /* ---------------------------- */
-     .service-list{
+     .about-list{
        display: block;
        margin-bottom: 40px;
      }
-     .service-item{
+     .about-item{
        width: 100%;
        margin-bottom: 30px;
      }
-     .service-item a{
+     .about-item a{
        line-height: 250px;
      }
      .map {
